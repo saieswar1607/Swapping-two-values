@@ -19,10 +19,23 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 
+#Program to swap two values.
 
+#Developed by: K.SaiEswar
+
+#RegisterNumber: 21000679
+
+val1 = int(input())
+
+val2 = int(input())
+
+val1,val2 = val2,val1
+
+print("Swapped values are: {} {}".format(val1,val2))
+
+## OUTPUT:
+
+![Output](./image/output.png)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
-
-
-
